@@ -232,8 +232,7 @@ void motorControl() {
   stepMotors(motorSpeed, motorSpeed);
   
   // Reporte de velocidad
-
-  repo<rtSpeed();
+  reportSpeed();
 }
 
 void stepMotors(int speed1, int speed2) {
